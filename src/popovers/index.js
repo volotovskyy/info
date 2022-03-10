@@ -1,0 +1,1 @@
+export { AddFactModal } from './AddFactModal'

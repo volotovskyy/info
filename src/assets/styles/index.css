@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import './normalize.css'; */
+@import './variables.css';
+@import './components/fact.css';
+@import './components/buttons.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+input {
+  border: 1px solid var(--smoke);
+  border-radius: 16px;
+  padding: 14px;
+}
+
+.App {
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 90px;
+}
+
+.header {
+  background-image: url('../images/house-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.header__title {
+  font-size: 80px;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.instruction {
+  background-color: var(--main-transparent-bold);
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  line-height: 150%;
+}
+
+.instruction img {
+  margin-right: 50px;
+  width: 60px;
+  height: 60px;
+}
+
+.main-article {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.main-article__title {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: bold;
+    flex: 1 1 50%;
+}
+
+.main-article__text {
+  flex: 1 1 50%;
+}
+
+.text-editor {
+  width: 610px;
+  border-radius: 16px;
+}

@@ -1,0 +1,43 @@
+.button {
+    background: var(--main);
+    border: 2px solid var(--main);
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 11px 22px;
+}
+  
+.button--disabled {
+    cursor: not-allowed;
+    background: var(--disabled-bg);
+    color: var(--disabled);
+}
+  
+.add-fact-button {
+    background: var(--main);
+    border: 2px solid var(--main);
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 11px 22px;
+    position: sticky;
+    top: 40px;
+    left: 75%;
+    cursor: pointer;
+}
+  
+
+.vote-button {
+    background: var(--main);
+    border: 2px solid var(--main);
+    box-sizing: border-box;
+    border-radius: 60px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 16px 24px;
+}
+

@@ -1,0 +1,30 @@
+.fact {
+    border-bottom: 2px solid #E8E8E8; 
+}
+
+.collapsible .collapsible__content {
+    padding: 6px;
+    background-color: rgb(240, 240, 240);
+    font-size: 14px;
+}
+
+.collapsible .collapsible__header {
+    /* background-color: rgb(200, 200, 200); */
+    padding: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+   
+    font-size: 40px;
+}
+
+.collapsible .collapsible__header .collapsible__title {
+    font-weight: 400;
+}
+
+.preferences label {
+    display: block;
+    padding-bottom: 4px;
+}
+
+

@@ -1,0 +1,9 @@
+:root {
+    --main: #D33D1C;
+    --main-transparent: rgba(211, 61, 28, 0.08);
+    --main-transparent-bold: rgba(211, 61, 28, 0.06);
+    --gray: #E8E8E8;
+    --smoke: #DCE0E4;
+    --disabled-bg: rgba(145, 158, 171, 0.24);
+    --disabled: #919EABCC;
+  }
