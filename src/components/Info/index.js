@@ -3,11 +3,11 @@ import ExclamationMark from '../../assets/images/exl.svg'
 
 export const Info = () => {
   return (
-    <div className="section">
-        <article className="main-article">
-            <h2 className="main-article__title">Як говорити з <br/> росіянами про війну</h2>
-            <div className="main-article__text">
-                <p>
+    <div className="mb-20 md:mb-28">
+        <article className="flex flex-col mb-16 md:mb-20 md:flex-row md:justify-between">
+            <h2 className="text-xl mb-7 font-bold md:text-5xl md:flex-[1_1_50%]">Як говорити з <br/> росіянами про війну</h2>
+            <div className="flex-[1_1_50%]">
+                <p className="mb-4">
                     24 лютого 2022 року російські війська вторглися на територію суверенної України. Росія роками готувалася до нападу, транслюючи меседжі про нацистів і бендерівців, від яких Україну потрібно рятувати. Всього за тиждень війни рейтинг Путіна зріс на 11%. Сьогодні, щоб зупинити Путіна, треба пояснити росіянам, що відбувається насправді.
                 </p>
                 <p>

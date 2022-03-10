@@ -28,7 +28,6 @@
     left: 75%;
     cursor: pointer;
 }
-  
 
 .vote-button {
     background: var(--main);
@@ -39,5 +38,20 @@
     font-weight: bold;
     font-size: 18px;
     padding: 16px 24px;
+    min-width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 767px) { 
+    .add-fact-button {
+        flex: 1;
+        margin: 0 10px 75px 10px;
+    }
+
+    .vote-button {
+        padding: 14px;
+        font-size: 12px;
+    }
 }
 

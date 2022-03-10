@@ -23,7 +23,7 @@ export const TextEditor = () => {
     const [value, setValue] = useState('');
 
     return (
-      <ReactQuill className="text-editor" theme="snow" value={value} placeholder={"Спростування"} onChange={setValue}/>
+      <ReactQuill className="text-editor flex-1 md:flex-none" theme="snow" value={value} placeholder={"Спростування"} onChange={setValue}/>
     );
 
     // return (
