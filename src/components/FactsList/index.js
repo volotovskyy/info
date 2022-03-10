@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import axios from 'axios'
 
 import { useFingerprint } from '../../hooks'
 import { Fact } from './Fact'
@@ -14,6 +15,19 @@ const fact = {
 export const FactsList = () => {
 
   const fingerprint = useFingerprint()
+  
+  useEffect(() => {
+    const getPublishedFacts = async () => {
+      try {
+        const response = await axios.get('http://localhost:4000/list/published');
+        console.log('response', response);
+      } catch (error) {
+        console.error(error);
+      }
+    }
+    getPublishedFacts()
+  }, [])
+  
 
   console.log('context fingerprint', fingerprint)
   return (

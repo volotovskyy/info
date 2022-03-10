@@ -1,11 +1,12 @@
 import React, { Fragment} from 'react';
 import { useMediaQuery } from 'react-responsive'
 
+import { breakpoints } from '../../utils';
 import { AddFactModal } from '../../popovers'
 
 export const Header = () => {
    const isMobile = useMediaQuery({
-        query: '(max-width: 767px)'
+        query: `(max-width: ${breakpoints.sm.max}px)`
     })
 
     const headerTitle = (

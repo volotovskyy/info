@@ -2,6 +2,7 @@ import React, { useState, useEffect, Fragment } from 'react'
 import Modal from 'react-modal';
 import { useMediaQuery } from 'react-responsive'
 
+import { breakpoints } from '../../utils';
 import Cross from '../../assets/images/cross.svg'
 import GoBackArrow from '../../assets/images/arrow.svg'
 
@@ -41,7 +42,7 @@ export const AddFactModal = () => {
     const [modalIsOpen, setIsOpen] = useState(false);
 
     const isMobile = useMediaQuery({
-        query: '(max-width: 767px)'
+        query: `(max-width: ${breakpoints.sm.max}px)`
     })
 
     function openModal() {

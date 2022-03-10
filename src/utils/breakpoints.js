@@ -1,14 +1,14 @@
 export const breakpoints = Object.freeze({
     xs: {
         min: null,
-        max: 767,
+        max: 640,
     },
     sm: {
-        min: 768,
-        max: 991,
+        min: 641,
+        max: 767,
     },
     md: {
-        min: 992,
+        min: 768,
         max: 1199,
     },
     lg: {
